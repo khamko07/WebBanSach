@@ -76,4 +76,4 @@ WebBanSach is an online bookstore platform that allows users to browse, search, 
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, please contact us at support@webbansach.com.
+For any inquiries, please contact us at khamko@pascaliaasia.com
