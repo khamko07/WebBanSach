@@ -1,0 +1,118 @@
+.flex-box{
+    display: flex;
+    width: 1000px;
+    margin: 30px auto;
+    
+   
+}
+.left{
+    width: 50%;
+}
+.big-img{
+    width: 250px;
+}
+.big-img img{
+    width: 28rem;
+    height: 30rem;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 15px;
+}
+.small-img{
+    width: 50px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.small-img img{
+    width:inherit ;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.small-img:hover image{
+    transform: scale(1.2);
+}
+.right{
+    margin-right: 100px;
+}
+.pname{
+    font-size: 22px;
+    margin-top: 150px;
+    font-weight: 600;
+}
+h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.right .pname h3 p{
+    font-size: 15px;
+}
+.rating i{
+    color: rgb(255, 123, 0);
+}
+.price{
+    font-weight: 500;
+    margin: 20px 0 ;
+}
+.size{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+
+}
+.size p{
+    font-size: 18px;
+    font-weight:600 ;
+}
+.psize{
+    width: 70px;
+    border: 1px solid #ff5e00;
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+}
+.psize.active{
+    border-width:1.5px ;
+    color: #ff5e00;
+    font-weight: 500;
+}
+.quantity{
+    display:flex ;
+
+}
+.quantity p{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(19, 16, 16);
+}
+.quantity input{
+    width: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+    color: rgb(36, 33, 33);
+}
+  label {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(23, 22, 22);
+  }
+  
+  #lang-select {
+    width: 15%;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(29, 27, 27);
+  }
+.right{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    margin-right: 470px;
+}

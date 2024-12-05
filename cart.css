@@ -1,0 +1,96 @@
+
+body{
+    font-family: arial;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 1170px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+table .product-img img{
+    max-width: 100px;
+}
+table .product-name{
+    width: 350px;
+    padding-left: 20px;
+}
+table .product-img{
+    width: 120px;
+    text-align: center;
+}
+table .product-number{
+    width: 50px;
+    text-align: center;
+}
+table .product-price{
+    width: 100px;
+    text-align: center;
+}
+table .product-quantity input{
+    width: 40px;
+    text-align: center;
+}
+table .product-quantity{
+    width: 60px;
+    text-align: center;
+}
+table .total-money{
+    width: 100px;
+    text-align: center;
+}
+#form-button{
+    text-align: right;
+    margin-top: 15px;
+}
+.product-delete{
+    width: 100px;
+    text-align: center;
+}
+#cart-form label{
+    width: 100px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#cart-form textarea{
+    margin-top: 15px;
+}
+#cart-form input{
+    line-height: 30px;
+    height: 30px;
+}
+input[name="order_click"]{
+    margin-top: 15px;
+}
+#row-total{
+    background: #d6926e;
+    color: #000;
+}
+
+#add-to-cart-form input[type='text']{
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+#add-to-cart-form input[type='submit']{
+    background: #000;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}

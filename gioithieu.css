@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #f6f3f3;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  main {
+    margin-top: 50px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .about {
+    background-color: #f6f3f3;
+  }
+  
+  .products {
+    background-color:#f6f3f3;
+  }
+  
+  .contact {
+    background-color: #f6f3f3;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .icons-container {
+    background-color: #383535;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
